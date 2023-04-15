@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<a href="addBrand.html"><input type="button" value="新增"></a><br>
+<hr>
+<table id="brandTable" border="1" cellspacing="0" width="100%">
+    <tr>
+        <th>序号</th>
+        <th>品牌名称</th>
+        <th>企业名称</th>
+        <th>排序</th>
+        <th>品牌介绍</th>
+        <th>状态</th>
+        <th>操作</th>
+    </tr>
+
+
+<!--遍历  -->
+    <tr v-for="(brand,i) in brands" align="center">
+        <td>{{i + 1}}</td>
+        <td>{{brand.brandName}}</td>
+        <td>{{brand.companyName}}</td>
+        <td>{{brand.ordered}}</td>
+        <td>{{brand.description}}</td>
+        <td>{{brand.statusStr}}</td>
+        <td><a href="#">修改</a> <a href="#">删除</a></td>
+    </tr>
+
+</table>
+
+
+</div>
+
+<script src="js/axios-0.18.0.js"></script>
+<script src="../../../../../01_easyfly/EasyFly_miniprogram/src/main/resources/static/vue.js"></script>
+
+<script>
+
+
+new  Vue({
+el: "#app",
+data(){
+return{
+brands:[]
+}
+},
+mounted(){
+// 页面加载完成后，发送异步请求，查询数据
+var _this = this;
+axios({
+method:"get",
+url:"http://localhost:8080/brand_jiaogou_example/selectAllServlet"
+}).then(function (resp) {
+_this.brands = resp.data;
+})
+}
+})
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+
+</html>

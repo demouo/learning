@@ -1,0 +1,4 @@
+web\session\getSessionServlet.class
+web\cookie\setCookieServlet.class
+web\session\setSessionServlet.class
+web\cookie\getCookieServlet.class

@@ -1,0 +1,17 @@
+com\momo\web\LoginServlet.class
+com\momo\dao\BrandMapper.class
+com\momo\web\DeleteByIdServlet.class
+com\momo\service\UserService.class
+com\momo\service\BrandService.class
+com\momo\util\sqlsessionFactoryUtils.class
+com\momo\web\AddServlet.class
+com\momo\web\filter\LoginFilter.class
+com\momo\web\UpdateServlet.class
+com\momo\pojo\User.class
+com\momo\web\SelectAllServlet.class
+com\momo\dao\UserMapper.class
+com\momo\web\RegisterServlet.class
+com\momo\web\SelectByIdServlet.class
+com\momo\util\CheckCodeUtil.class
+com\momo\web\CheckCodeServlet.class
+com\momo\pojo\Brand.class

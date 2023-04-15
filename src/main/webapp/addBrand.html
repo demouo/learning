@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>添加品牌</title>
+</head>
+<body>
+<div id="app">
+<h3>添加品牌</h3>
+<form action="" method="post">
+    品牌名称：<input id="brandName" name="brandName" v-model="brand.brandName"><br>
+    企业名称：<input id="companyName" name="companyName" v-model="brand.companyName"><br>
+    排序：<input id="ordered" name="ordered" v-model="brand.ordered"><br>
+    描述信息：<textarea rows="5" cols="20" id="description" name="description" v-model="brand.description"></textarea><br>
+    状态：
+    <input type="radio" name="status" value="0" v-model="brand.status">禁用
+    <input type="radio" name="status" value="1" v-model="brand.status">启用<br>
+
+    <input type="button" id="btn" @click="submit()" value="提交">
+</form>
+
+</div>
+<script src="js/axios-0.18.0.js"></script>
+<script src="../../../../../01_easyfly/EasyFly_miniprogram/src/main/resources/static/vue.js"></script>
+
+<script>
+new Vue({
+el: "#app",
+data(){
+return{
+brand:{}
+}
+},
+
+methods: {
+    submit() {
+       var _this = this;
+      //点击提交按钮 发送请求
+      axios({
+method:"post",
+url:"http://localhost:8080/brand_jiaogou_example/addServlet",
+data:_this.brand
+}).then(function (resp) {
+//添加是否成功
+if(resp.data=="success"){
+location.href="http://localhost:8080/brand_jiaogou_example/brand.html";
+}
+})
+    }
+    }
+})
+
+
+</script>
+
+</body>
+</html>

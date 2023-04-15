@@ -1,0 +1,17 @@
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\pojo\Brand.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\RegisterServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\AddServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\service\UserService.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\SelectAllServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\UpdateServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\filter\LoginFilter.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\SelectByIdServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\pojo\User.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\service\BrandService.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\dao\UserMapper.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\dao\BrandMapper.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\LoginServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\CheckCodeServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\web\DeleteByIdServlet.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\util\sqlsessionFactoryUtils.java
+D:\jdbc\brand_jiaogou_example\src\main\java\com\momo\util\CheckCodeUtil.java

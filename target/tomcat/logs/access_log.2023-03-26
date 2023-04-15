@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:42:46 +0800] "GET /brand_jiaogou_example HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:42:46 +0800] "GET /brand_jiaogou_example/ HTTP/1.1" 200 202 http-bio-8080-exec-3 7
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:42:46 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:42:48 +0800] "GET /brand_jiaogou_example/selectAllServlet HTTP/1.1" 500 12654 http-bio-8080-exec-5 325
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:08 +0800] "GET /brand_jiaogou_example/brand.html HTTP/1.1" 200 1335 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:08 +0800] "GET /brand_jiaogou_example/js/axios-0.18.0.js HTTP/1.1" 200 12948 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:08 +0800] "GET /brand_jiaogou_example/js/vue.js HTTP/1.1" 200 341462 http-bio-8080-exec-6 4
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:08 +0800] "GET /brand_jiaogou_example/selectAllServlet HTTP/1.1" 500 12654 http-bio-8080-exec-9 6
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:10 +0800] "GET /brand_jiaogou_example/addBrand.html HTTP/1.1" 200 1424 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:11 +0800] "POST /brand_jiaogou_example/addServlet HTTP/1.1" 500 11952 http-bio-8080-exec-8 45
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:11 +0800] "POST /brand_jiaogou_example/addServlet HTTP/1.1" 500 11952 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [26/Mar/2023:00:43:12 +0800] "POST /brand_jiaogou_example/addServlet HTTP/1.1" 500 11952 http-bio-8080-exec-3 5
