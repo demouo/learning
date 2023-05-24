@@ -137,10 +137,6 @@ def ppt2pdf(srcPath, tgtPath,save_dir,choice):
     end=time.time()
     print('[TIME] ' + str(round(end - start, 3)) + 's\n')
 
-# 示例
-# D:\onedrive\桌面\大二下活动\楼长\十一周\c10第十一周物业卫生考核表.xlsx
-# D:\onedrive\文档\WPS Cloud Files\.462747661\cachedata\F481C1CB8BC24020AA8A6267C11D15D5\2022年度华南理工大学团内评优汇总表.xls
-# C:\\Users\\TMxxy\\AppData\\Roaming\\jupyter\\nbextensions\\highlighter\\tst_highlights.pdf
 if __name__ == '__main__':
     '''
     要修改保存的目录在此处（默认是桌面）
